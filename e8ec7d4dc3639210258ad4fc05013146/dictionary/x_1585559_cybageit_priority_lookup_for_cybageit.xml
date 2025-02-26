@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" db_object_id="420d7802c3671210258ad4fc050131f1" extends="dl_matcher" label="Priority Lookup for CybageIT" max_length="40" name="x_1585559_cybageit_priority_lookup_for_cybageit" type="collection">
+        <element choice="1" label="Impact" max_length="40" name="impact" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="1-High" value="1-High"/>
+                <element inactive_on_update="false" label="2-Medium" value="2-Medium"/>
+                <element inactive_on_update="false" label="3-Low" value="3-Low"/>
+            </choice>
+        </element>
+        <element choice="1" choice_field="priority" choice_table="x_1585559_cybageit_cybageit" label="Priority" max_length="40" name="priority" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" choice_field="urgency" choice_table="x_1585559_cybageit_cybageit" label="Urgency" max_length="40" name="urgency" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="-- New choice --" value="-- New choice --"/>
+            </choice>
+        </element>
+    </element>
+</database>

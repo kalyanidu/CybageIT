@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_1585559_cybageit_priority_lookup_for_cybageit">
+    <x_1585559_cybageit_priority_lookup_for_cybageit action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <impact>2-Medium</impact>
+        <order>100</order>
+        <priority>2-High</priority>
+        <sys_class_name>x_1585559_cybageit_priority_lookup_for_cybageit</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 10:07:03</sys_created_on>
+        <sys_id>912009c6c3671210258ad4fc05013198</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>100</sys_name>
+        <sys_package display_value="CybageIT" source="x_1585559_cybageit">e8ec7d4dc3639210258ad4fc05013146</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CybageIT">e8ec7d4dc3639210258ad4fc05013146</sys_scope>
+        <sys_update_name>x_1585559_cybageit_priority_lookup_for_cybageit_912009c6c3671210258ad4fc05013198</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 10:07:03</sys_updated_on>
+        <urgency>1-High</urgency>
+    </x_1585559_cybageit_priority_lookup_for_cybageit>
+</record_update>

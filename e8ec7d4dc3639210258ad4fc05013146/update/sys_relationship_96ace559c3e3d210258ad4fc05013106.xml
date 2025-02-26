@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_relationship">
+    <sys_relationship action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>x_1585559_cybageit_cybageit</basic_apply_to>
+        <basic_query_from>incident</basic_query_from>
+        <insert_callback/>
+        <name>All Incidents of Requested for User</name>
+        <query_from/>
+        <query_with><![CDATA[(function refineQuery(current, parent) {
+   
+	current.addQuery('caller_id',parent.requested_for);
+
+})(current, parent);]]></query_with>
+        <reference_field/>
+        <related_list/>
+        <simple_reference>false</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-05 05:33:53</sys_created_on>
+        <sys_id>96ace559c3e3d210258ad4fc05013106</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>All Incidents of Requested for User</sys_name>
+        <sys_package display_value="CybageIT" source="x_1585559_cybageit">e8ec7d4dc3639210258ad4fc05013146</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CybageIT">e8ec7d4dc3639210258ad4fc05013146</sys_scope>
+        <sys_update_name>sys_relationship_96ace559c3e3d210258ad4fc05013106</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-10 08:32:35</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="delete_multiple" query="documentkey=96ace559c3e3d210258ad4fc05013106"/>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>96ace559c3e3d210258ad4fc05013106</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-05 05:33:52</sys_created_on>
+        <sys_id>558e21d5c3e3d210258ad4fc0501317a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-05 05:33:52</sys_updated_on>
+        <table>sys_relationship</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

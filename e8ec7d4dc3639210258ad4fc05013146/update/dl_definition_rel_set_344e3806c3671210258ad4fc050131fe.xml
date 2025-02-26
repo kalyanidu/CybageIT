@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="dl_definition_rel_set">
+    <dl_definition_rel_set action="INSERT_OR_UPDATE">
+        <always_replace>false</always_replace>
+        <dl_definition display_value="CybageIT Priority Data Lookup">d6dd74c2c3671210258ad4fc050131a9</dl_definition>
+        <matcher_table>x_1585559_cybageit_priority_lookup_for_cybageit</matcher_table>
+        <matcher_table_field>priority</matcher_table_field>
+        <source_table>x_1585559_cybageit_cybageit</source_table>
+        <source_table_field>priority</source_table_field>
+        <sys_class_name>dl_definition_rel_set</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 09:58:58</sys_created_on>
+        <sys_id>344e3806c3671210258ad4fc050131fe</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>priority</sys_name>
+        <sys_package display_value="CybageIT" source="x_1585559_cybageit">e8ec7d4dc3639210258ad4fc05013146</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CybageIT">e8ec7d4dc3639210258ad4fc05013146</sys_scope>
+        <sys_update_name>dl_definition_rel_set_344e3806c3671210258ad4fc050131fe</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 10:01:00</sys_updated_on>
+    </dl_definition_rel_set>
+</record_update>

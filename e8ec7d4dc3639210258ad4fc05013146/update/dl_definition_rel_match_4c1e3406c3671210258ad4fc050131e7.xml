@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="dl_definition_rel_match">
+    <dl_definition_rel_match action="INSERT_OR_UPDATE">
+        <dl_definition display_value="CybageIT Priority Data Lookup">d6dd74c2c3671210258ad4fc050131a9</dl_definition>
+        <exact_match>true</exact_match>
+        <matcher_table>x_1585559_cybageit_priority_lookup_for_cybageit</matcher_table>
+        <matcher_table_field>impact</matcher_table_field>
+        <source_table>x_1585559_cybageit_cybageit</source_table>
+        <source_table_field>impact</source_table_field>
+        <sys_class_name>dl_definition_rel_match</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 09:58:04</sys_created_on>
+        <sys_id>4c1e3406c3671210258ad4fc050131e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>impact</sys_name>
+        <sys_package display_value="CybageIT" source="x_1585559_cybageit">e8ec7d4dc3639210258ad4fc05013146</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CybageIT">e8ec7d4dc3639210258ad4fc05013146</sys_scope>
+        <sys_update_name>dl_definition_rel_match_4c1e3406c3671210258ad4fc050131e7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 09:58:04</sys_updated_on>
+    </dl_definition_rel_match>
+</record_update>
